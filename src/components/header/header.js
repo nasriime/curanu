@@ -14,10 +14,10 @@ export default function header() {
         </ul>
         <div className="notifications">
           <i>
-            <img src="" />
+            <img src="../../assets/images/black-settings-button.svg" alt=""/>
           </i>
           <i>
-            <img src="" />
+            <img src="../../assets/images/notification-bell.svg"  alt=""/>
           </i>
         </div>
       </div>
