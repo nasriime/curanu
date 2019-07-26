@@ -2,23 +2,23 @@ import React from 'react';
 
 export default function header() {
   return (
-    <div>
-      <div className="navigationList">
-        <ul>
-          <li>Groepen</li>
-          <li>Contact</li>
-          <li>FAQS</li>
-          <li>moelenboek</li>
-          <li>Microblog</li>
-          <li>Over ons</li>
+    <div className="wrapper">
+      <div className="navigationWrapper">
+        <ul className="navigationList">
+          <li><a href="#">Groepen</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQS</a></li>
+          <li><a href="#">moelenboek</a></li>
+          <li><a href="#">Microblog</a></li>
+          <li><a href="#">Over ons</a></li>
         </ul>
         <div className="notifications">
-          <i>
-            <img src="../../assets/images/black-settings-button.svg" alt=""/>
-          </i>
-          <i>
-            <img src="../../assets/images/notification-bell.svg"  alt=""/>
-          </i>
+          <a href="#">
+            <img src="/images/black-settings-button.svg" alt="black-settings-button"/>
+          </a>
+          <a href="#">
+            <img src="/images/notification-bell.svg"  alt="notification-bell"/>
+          </a>
         </div>
       </div>
     </div>

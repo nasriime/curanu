@@ -1,0 +1,31 @@
+.navigationWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    font-family: OpenSans-Light;
+    border-bottom: 1px solid #E5F0FA;
+}
+.navigationList{
+    display: flex;
+    margin-top: 10px;
+    li {
+      &+ li{
+          margin-left: 10px;
+      }
+      a{
+        cursor: pointer;
+        color:$light;
+      }
+    }
+  }
+  .notifications{
+    a{
+        display: inline-block;
+        cursor: pointer;
+        background: #E5F0FA;
+        padding: 4px;
+        &+ a{
+            margin-left: 10px;
+        }
+    }
+  }
