@@ -1,4 +1,4 @@
-import { OPEN_ACCORDION, CLOSE_ACCORDION } from '../constantns/types';
+import { OPEN_ACCORDION, CLOSE_ACCORDION } from '../constants/types';
 
 const initialState = {
   items: []
