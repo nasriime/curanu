@@ -1,7 +1,8 @@
+  /********************* NAVIGATION *************************/
 .navigationWrapper{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0 10px 0;
     font-family: OpenSans-Light;
     border-bottom: 1px solid #E5F0FA;
 }
@@ -29,3 +30,74 @@
         }
     }
   }
+  /******************** LOGO WRAPPER ***********************/
+  .logoWrapper{
+      display: flex;
+  }
+  .logoName{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    h2{
+        font-family: OpenSans-Bold;
+        margin-top: 6px;
+        font-size: 24px;
+        span{
+            font-family: OpenSans-Light;
+        }
+    }
+    h6{
+        font-family: OpenSans-Light;
+    }
+  }
+  .intranet{
+    font-family: OpenSans-Bold;
+    align-self: flex-end;
+    margin-left: 15px;
+    font-size: 24px;
+  }
+
+  /****************** HEADER **********************/
+.headerWrapper{
+    padding: 20px 0;
+    background: #9E419C;
+    margin-top: 30px;
+}
+.headerList{
+    display: flex;
+    align-items: center;
+
+    li {
+      &+ li{
+          margin-left: 20px;
+      }
+      a{
+        cursor: pointer;
+        color:#fff;
+        font-family: OpenSans-Bold;
+        font-size: 16px;
+      }
+    }
+  }
+  .header{
+      display: flex;
+      justify-content: space-between;
+  }
+.searchForm{
+    div{
+        position: relative;
+        overflow: hidden;
+        input{
+            width: 260px;
+            height: 32px;
+            border: none;
+        }
+        button{
+            position: absolute;
+            right: -3px;
+            background: $icons-background;
+            height: 100%;
+            padding-top: 4px;
+        }
+    }
+}
