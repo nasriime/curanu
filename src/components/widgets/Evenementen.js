@@ -6,7 +6,7 @@ export default function Evenementen() {
             <div className="widgetHeader">
                 <div className="header-part-one">
                     <i><img src="/images/calendar.svg" alt="calendar"/></i>
-                    <h2 className="widgetName">Accordion1</h2>
+                    <h2 className="widgetName">Evenementen</h2>
                 </div>
                 <div className="header-part-two">
                     <i><img src="/images/arrow-right.svg" alt="arrow-right"/></i>
@@ -14,7 +14,7 @@ export default function Evenementen() {
                 </div>
             </div>
 
-            <div className="Evenementen">
+            <div className="evenementen">
                 <div>
                     <span>10/12/2016</span>
                     <span>Zorgmarathon</span>
