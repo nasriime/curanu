@@ -1,0 +1,101 @@
+.widget{
+    max-width: 380px;
+    border: solid 1px #dae4ee;
+
+     .accordion{
+        &+ .accordion{
+            margin-top:10px;
+        }
+    }
+}
+.widgetName{
+    color:$orange;
+    font-size: 16px;
+    font-family: OpenSans-Bold;
+}
+.widgetHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.header-part-one{
+    display: flex;
+    i{
+        background: $icons-background;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 10px;
+    }
+    .widgetName{
+        align-self: center;
+        margin-left: 5px;
+    }
+}
+.header-part-two{
+    display: flex;
+    i{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 10px;
+
+        &:last-of-type{
+            background: $icons-background;
+        }
+    }
+}
+.widget-footer{
+    background: $widget-footer;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    p{
+        font-family: OpenSans-Light;
+        color:$light;
+        align-self: center;
+        margin-left: 15px;
+    }
+    i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 15px;
+        background: $widget-header;
+    }
+}
+/**************************** ACCORDION *************************/
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    background: $icons-background;
+    padding: 15px 12px;
+}
+.accordion-body{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    padding:20px;
+}
+/**************************** Evenementen *************************/
+.Evenementen{
+    padding: 30px 20px;
+    div{
+        display: flex;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+
+        &:not(:last-child){
+            border-bottom: 1px solid #dae4ee;
+        }
+        span{
+            color:$light;
+            font-family: OpenSans-Light;
+            &:last-of-type{
+                font-family: OpenSans-Bold;
+                margin-left: 40px;
+            }
+        }
+    }
+}

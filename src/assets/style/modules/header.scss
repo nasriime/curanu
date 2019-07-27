@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding: 10px 0 10px 0;
     font-family: OpenSans-Light;
-    border-bottom: 1px solid #E5F0FA;
+    border-bottom: 1px solid $border;
 }
 .navigationList{
     display: flex;
@@ -20,12 +20,12 @@
     }
   }
   .notifications{
-    a{
+    span{
         display: inline-block;
         cursor: pointer;
-        background: #E5F0FA;
+        background: $icons-background;
         padding: 4px;
-        &+ a{
+        &+ span{
             margin-left: 10px;
         }
     }
@@ -61,7 +61,7 @@
 .headerWrapper{
     padding: 20px 0;
     background: #9E419C;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 .headerList{
     display: flex;
@@ -91,6 +91,7 @@
             width: 260px;
             height: 32px;
             border: none;
+            padding: 0 33px 0 5px;
         }
         button{
             position: absolute;

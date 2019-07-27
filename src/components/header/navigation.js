@@ -13,12 +13,12 @@ export default function Navigation() {
                     <li><a href="#">Over ons</a></li>
                 </ul>
                 <div className="notifications">
-                    <a href="#">
-                    <img src="/images/black-settings-button.svg" alt="black-settings-button"/>
-                    </a>
-                    <a href="#">
-                    <img src="/images/notification-bell.svg"  alt="notification-bell"/>
-                    </a>
+                    <span>
+                        <img src="/images/black-settings-button.svg" alt="black-settings-button"/>
+                    </span>
+                    <span>
+                        <img src="/images/notification-bell.svg"  alt="notification-bell"/>
+                    </span>
                 </div>
             </div>
         </div>
