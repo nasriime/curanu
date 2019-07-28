@@ -1,10 +1,14 @@
 import React from 'react';
+import HeaderContainer from '../components/header/HeaderContainer';
 import ContactUs from '../components/contactUs/ContactUs';
 
 export default function ContactUS() {
     return (
         <div>
-            <ContactUs/>
+            <HeaderContainer/>
+            <div className="wrapper">
+                <ContactUs/>
+            </div>
         </div>
     )
 }
