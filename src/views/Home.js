@@ -9,7 +9,9 @@ import HeaderContainer from '../components/header/HeaderContainer';
 // import Kwaliteitshandboek from '../components/widgets/Kwaliteitshandboek';
 // import Peilingen from '../components/widgets/Peilingen';
 // import Links from '../components/widgets/Links';
-import Telefoonboek from '../components/widgets/Telefoonboek';
+// import Telefoonboek from '../components/widgets/Telefoonboek';
+// import Groepen from '../components/widgets/Groepen';
+import Microblog from '../components/widgets/Microblog';
 
 export default function home() {
     return (
@@ -25,7 +27,9 @@ export default function home() {
                {/* <Kwaliteitshandboek/> */}
                {/* <Peilingen/> */}
                {/* <Links/> */}
-               <Telefoonboek/>
+               {/* <Telefoonboek/> */}
+               {/* <Groepen/> */}
+               <Microblog/>
             </div>
         </div>
     )

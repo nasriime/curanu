@@ -162,13 +162,12 @@
 /**************************** BLOGS ********************************/
 .blogs{
     padding: 20px 15px 30px;
-
 }
 .blogHeader{
     display: flex;
     margin-bottom: 20px;
 
-    .blogTitle{
+    .blogInfo{
         p{
             color:$light;
             font-family: OpenSans-Bold;
@@ -244,9 +243,9 @@
         }
     }
 }
-/**************************** TELEFOONBOEK********************************/
+/**************************** TELEFOONBOEK ********************************/
 .telefoonboek{
-    background-color: #43BAF2;
+    background-color: $blue;
     background-image: url('/images/telephone.svg');
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -283,4 +282,68 @@
         }
     }
 }
+/**************************** GROEPEN ********************************/
+.groepen{
+    padding: 20px;
+}
+.groepen-item{
+    display:flex;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 
+    &:not(:last-child){
+        border-bottom: 1px solid $border;
+    }
+
+    p{
+        align-self:center;
+        margin-left:20px;
+        font-family: OpenSans-Bold;
+        color: $light;
+    }
+
+}
+/**************************** MICROBLOG ********************************/
+.microblog{
+    padding: 20px;
+
+    textarea {
+        width: 100%;
+        height: 180px;
+        resize: none;
+        border: 2px solid $border;
+        padding: 5px;
+      }
+
+      .addBlog{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0 30px;
+
+        input[type="button"]{
+            background: $blue;
+            color:#fff;
+            font-family: OpenSans-Bold;
+            padding: 5px 28px;
+            align-self: center;
+            font-size: 16px;
+        }
+      }
+
+      .blogTitle{
+        font-family: OpenSans-Light;
+        font-size: 14px;
+        color: $light;
+        margin-bottom: 30px;
+      }
+      .blogMainImage{
+
+      }
+      .reacties{
+        font-family: OpenSans-Bold;
+        font-size: 14px;
+        color: $light;
+        margin-top: 20px;
+      }
+      
+}
