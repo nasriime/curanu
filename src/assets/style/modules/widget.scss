@@ -159,3 +159,66 @@
         margin-left: 10px;
     }
 }
+/**************************** BLOGS ********************************/
+.blogs{
+    padding: 20px 15px 30px;
+
+}
+.blogHeader{
+    display: flex;
+    margin-bottom: 20px;
+
+    .blogTitle{
+        p{
+            color:$light;
+            font-family: OpenSans-Bold;
+            font-size: 14px;
+
+            &:last-child{
+                font-family: OpenSans-Light;
+                margin-top: 8px;
+            }
+        }
+    }
+}
+.blogImage{
+    width:57px;
+    overflow: hidden;
+    img{
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+.blogData{
+    display: flex;
+    justify-content: space-between;
+    width: calc(380px - 90px);
+    margin-left: 20px;
+}
+.blogBody{
+    color:$light;
+    font-size: 14px;
+    h2{
+        font-family: OpenSans-Bold;
+        margin-bottom: 7px;
+    }
+    p{
+        font-family: OpenSans-Light;
+    }
+}
+/**************************** KWALITEITSHANDBOEK ********************************/
+.Kwaliteitshandboek{
+    padding: 20px;
+}
+.Kwaliteitshandboek-item{
+    padding: 15px 0;
+    font-size: 14px;
+    color: $light;
+    h3{
+        font-family: OpenSans-Bold;
+        margin-bottom: 5px;
+    }
+    p{
+        font-family: OpenSans-Light;
+    }
+}

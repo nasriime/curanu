@@ -1,10 +1,12 @@
 import React from 'react'
 import HeaderContainer from '../components/header/HeaderContainer';
-import Accordion from '../components/widgets/Accordion';
-import Evenementen from '../components/widgets/Evenementen';
-import Nieuws from '../components/widgets/Nieuws';
-import Add from '../components/widgets/Add';
-import Direct from '../components/widgets/Direct';
+// import Accordion from '../components/widgets/Accordion';
+// import Evenementen from '../components/widgets/Evenementen';
+// import Nieuws from '../components/widgets/Nieuws';
+// import Add from '../components/widgets/Add';
+// import Direct from '../components/widgets/Direct';
+// import Blogs from '../components/widgets/Blogs';
+import Kwaliteitshandboek from '../components/widgets/Kwaliteitshandboek';
 
 export default function home() {
     return (
@@ -15,7 +17,9 @@ export default function home() {
                 {/* <Evenementen/> */}
                 {/* <Nieuws/> */}
                {/* <Add/> */}
-               <Direct/>
+               {/* <Direct/> */}
+               {/* <Blogs/> */}
+               <Kwaliteitshandboek/>
             </div>
         </div>
     )
