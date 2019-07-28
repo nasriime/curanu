@@ -11,4 +11,16 @@
 .no-border{
   border:none;
 }
+.display-flex{
+  display: flex;
+}
+.sans-bold{
+  font-family: OpenSans-Bold;
+}
+.sans-light{
+  font-family: OpenSans-Light;
+}
+.light-color{
+  color: $light;
+}
 

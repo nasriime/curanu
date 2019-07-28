@@ -222,3 +222,65 @@
         font-family: OpenSans-Light;
     }
 }
+/**************************** PEILINGEN ********************************/
+.peilingen{
+    padding: 20px;
+    p{
+        color: $light;
+        font-family: OpenSans-Light;
+        margin: 30px 0;
+    }
+}
+/**************************** Links ********************************/
+.links{
+    p{
+        padding: 20px;
+        &:not(:last-child){
+            border-bottom: 1px solid $border;
+        }
+        a{
+            font-family: OpenSans-Bold;
+            color: $light;
+        }
+    }
+}
+/**************************** TELEFOONBOEK********************************/
+.telefoonboek{
+    background-color: #43BAF2;
+    background-image: url('/images/telephone.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    color:#fff;
+    padding: 30px 20px;
+    font-family: OpenSans-Bold;
+
+    h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
+.telefonForm{
+    margin-bottom: 20px;
+
+    div{
+        position: relative;
+        overflow: hidden;
+        input{
+            width: calc(100% - 44px);
+            height: 32px;
+            border: none;
+            padding: 0 39px 0 5px;
+        }
+        button{
+            position: absolute;
+            right: 4px;
+            height: 100%;
+            padding-top: 4px;
+        }
+    }
+}
+

@@ -6,7 +6,10 @@ import HeaderContainer from '../components/header/HeaderContainer';
 // import Add from '../components/widgets/Add';
 // import Direct from '../components/widgets/Direct';
 // import Blogs from '../components/widgets/Blogs';
-import Kwaliteitshandboek from '../components/widgets/Kwaliteitshandboek';
+// import Kwaliteitshandboek from '../components/widgets/Kwaliteitshandboek';
+// import Peilingen from '../components/widgets/Peilingen';
+// import Links from '../components/widgets/Links';
+import Telefoonboek from '../components/widgets/Telefoonboek';
 
 export default function home() {
     return (
@@ -19,7 +22,10 @@ export default function home() {
                {/* <Add/> */}
                {/* <Direct/> */}
                {/* <Blogs/> */}
-               <Kwaliteitshandboek/>
+               {/* <Kwaliteitshandboek/> */}
+               {/* <Peilingen/> */}
+               {/* <Links/> */}
+               <Telefoonboek/>
             </div>
         </div>
     )
