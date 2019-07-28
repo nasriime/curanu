@@ -3,6 +3,7 @@ import HeaderContainer from '../components/header/HeaderContainer';
 import Accordion from '../components/widgets/Accordion';
 import Evenementen from '../components/widgets/Evenementen';
 import Nieuws from '../components/widgets/Nieuws';
+import Add from '../components/widgets/Add';
 
 export default function home() {
     return (
@@ -11,7 +12,8 @@ export default function home() {
             <div className="wrapper">
                 {/* <Accordion/> */}
                 {/* <Evenementen/> */}
-                <Nieuws/>
+                {/* <Nieuws/> */}
+               <Add/>
             </div>
         </div>
     )

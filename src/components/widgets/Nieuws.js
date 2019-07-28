@@ -19,7 +19,7 @@ export default function Nieuws() {
                         <i><img src="/images/Rectangle 5.png" alt="laptop"/></i>
                         <div className="nieuws-text">
                             <div>
-                                <p>10/12/2016</p>
+                                <p>29/02/2016</p>
                                 <img src="/images/Bitmap 4.png" alt="heart"/>
                             </div>
                             <p>Geef je mening over ons intranet</p>
@@ -27,10 +27,10 @@ export default function Nieuws() {
                     </div>
 
                     <div className="nieuws-item">
-                        <i><img src="/images/Rectangle 5.png" alt="laptop"/></i>
+                        <i><img src="/images/Rectangle 5 Copy.png" alt="nurse"/></i>
                         <div className="nieuws-text">
                             <div>
-                                <p>10/12/2016</p>
+                                <p>29/02/2016</p>
                                 <img src="/images/Bitmap 4.png" alt="heart"/>
                             </div>
                             <p>Geef je mening over ons intranet</p>
@@ -38,10 +38,10 @@ export default function Nieuws() {
                     </div>
 
                     <div className="nieuws-item">
-                        <i><img src="/images/Rectangle 5.png" alt="laptop"/></i>
+                        <i><img src="/images/Rectangle 5 Copy 2.png" alt="hands"/></i>
                         <div className="nieuws-text">
                             <div>
-                                <p>10/12/2016</p>
+                                <p>29/02/2016</p>
                                 <img src="/images/Bitmap 4.png" alt="heart"/>
                             </div>
                             <p>Geef je mening over ons intranet</p>
