@@ -110,7 +110,7 @@
             border-bottom: 1px solid $border;
         }
 
-        i img{
+        > img{
             width: 79px;
         }
 
@@ -135,5 +135,27 @@
                margin-left: 20px;
            }
         }
+    }
+}
+/**************************** DIRECT ********************************/
+.direct{
+    padding: 20px;
+}
+.direct-item{
+    display: flex;
+    padding: 20px 0;
+    &:not(:last-child){
+        border-bottom: 1px solid $border;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        width:80px;
+    }
+    p{
+        align-self: center;
+        font-family: OpenSans-Bold;
+        font-size: 18px;
+        margin-left: 10px;
     }
 }
