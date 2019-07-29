@@ -1,14 +1,12 @@
 @import './variables';
 @import './reset';
 @import './fonts';
+@import './layout';
 @import './modules/header';
 @import './modules/widget';
 @import './modules/contact-us';
 
-.wrapper {
-  max-width: 1181px;
-  margin: 0 auto;
-}
+
 .no-border{
   border:none;
 }

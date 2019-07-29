@@ -1,7 +1,6 @@
 .widget{
-    max-width: 380px;
     border: solid 1px #dae4ee;
-
+    margin-bottom: 40px;
      .accordion{
         &+ .accordion{
             margin-top:10px;
@@ -135,7 +134,7 @@
             div{
                 display: flex;
                 justify-content: space-between;
-                width: calc(380px - 125px);
+                width: calc(100% - 125px);
                 margin-left:20px;
                 p{
                     font-family: OpenSans-Light;
@@ -206,7 +205,7 @@
 .blogData{
     display: flex;
     justify-content: space-between;
-    width: calc(380px - 90px);
+    width: calc(100% - 90px);
     margin-left: 20px;
 }
 .blogBody{
