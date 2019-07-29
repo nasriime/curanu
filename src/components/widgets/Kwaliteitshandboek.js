@@ -5,7 +5,7 @@ export default function Kwaliteitshandboek() {
         <div className="widget">
             <div className="widgetHeader">
                 <div className="header-part-one">
-                    <i><img src="/images/Kwaliteitshandboek.svg" alt="Kwaliteitshandboek"/></i>
+                    <i><img src="/images/kwaliteitshandboek.svg" alt="kwaliteitshandboek"/></i>
                     <h2 className="widgetName">Kwaliteitshandboek</h2>
                 </div>
                 <div className="header-part-two">
