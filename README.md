@@ -8,13 +8,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 
+
 ## App structure
 
-### views folder
+### views 
 it contains app pages
 
-### components folder
-it represents app components and grouped components if applicable.
+### components 
+it contains app components and grouped components if applicable.
 
 ### actions
 it contains redux actions
@@ -27,6 +28,7 @@ it contains redux constants and types
 
 ### assets
 it contains style sheets and fonts
+
 
 
 ## packages

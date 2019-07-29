@@ -11,11 +11,14 @@
     margin-top: 10px;
     li {
       &+ li{
-          margin-left: 10px;
+          margin-left: 20px;
       }
       a{
         cursor: pointer;
         color:$light;
+        &:hover{
+          color:#000;
+        }
       }
     }
   }
@@ -24,7 +27,7 @@
         display: inline-block;
         cursor: pointer;
         background: $icons-background;
-        padding: 4px;
+        padding: 6px;
         &+ span{
             margin-left: 10px;
         }
@@ -33,6 +36,7 @@
   /********************************* LOGO WRAPPER ************************************/
   .logoWrapper{
       display: flex;
+      margin-top: 20px;
   }
   .logoName{
     display: flex;
@@ -40,7 +44,7 @@
     justify-content: space-between;
     h2{
         font-family: OpenSans-Bold;
-        margin-top: 6px;
+        margin-top: 4px;
         font-size: 24px;
         span{
             font-family: OpenSans-Light;
@@ -48,20 +52,24 @@
     }
     h6{
         font-family: OpenSans-Light;
+        font-size: 15px;
     }
   }
   .intranet{
     font-family: OpenSans-Bold;
     align-self: flex-end;
-    margin-left: 15px;
+    margin-left: 22px;
     font-size: 24px;
+    h2{
+      margin-bottom: -3px;
+    }
   }
 
   /******************************** HEADER ***********************************/
 .headerWrapper{
-    padding: 20px 0;
+    padding: 25px 0;
     background: #9E419C;
-    margin: 30px 0;
+    margin: 20px 0 30px;
 }
 .headerList{
     display: flex;
@@ -69,13 +77,16 @@
 
     li {
       &+ li{
-          margin-left: 20px;
+          margin-left: 35px;
       }
       a{
         cursor: pointer;
         color:#fff;
         font-family: OpenSans-Bold;
         font-size: 16px;
+        &:hover{
+          color:#000;
+        }
       }
     }
   }
@@ -89,7 +100,7 @@
         overflow: hidden;
         input{
             width: 260px;
-            height: 32px;
+            height: 40px;
             border: none;
             padding: 0 33px 0 5px;
         }

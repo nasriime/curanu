@@ -34,8 +34,8 @@ export default function home() {
                     </div>
                     <div className="col">
                         <Telefoonboek/>
-                        <Groepen/>
                         <Microblog/>
+                        <Groepen/>
                     </div>
                 </div>
             </div>

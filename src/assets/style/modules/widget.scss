@@ -1,6 +1,6 @@
 .widget{
     border: solid 1px #dae4ee;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
      .accordion{
         &+ .accordion{
             margin-top:10px;
@@ -134,7 +134,7 @@
             div{
                 display: flex;
                 justify-content: space-between;
-                width: calc(100% - 125px);
+                width: calc(100% - 9px);
                 margin-left:20px;
                 p{
                     font-family: OpenSans-Light;
@@ -158,6 +158,7 @@
 .direct-item{
     display: flex;
     padding: 20px 0;
+    cursor: pointer;
     &:not(:last-child){
         border-bottom: 1px solid $border;
     }
@@ -205,7 +206,7 @@
 .blogData{
     display: flex;
     justify-content: space-between;
-    width: calc(100% - 90px);
+    width: calc(100% - 77px);
     margin-left: 20px;
 }
 .blogBody{
@@ -241,7 +242,7 @@
     p{
         color: $light;
         font-family: OpenSans-Light;
-        margin: 30px 0;
+        margin: 23px 0;
     }
 }
 /**************************** Links ********************************/
@@ -286,13 +287,13 @@
             width: calc(100% - 44px);
             height: 32px;
             border: none;
-            padding: 0 39px 0 5px;
+            padding: 0 39px 0 10px;
         }
         button{
             position: absolute;
-            right: 4px;
+            right: 45px;
             height: 100%;
-            padding-top: 4px;
+            padding-top: 3px;
         }
     }
 }
@@ -334,6 +335,10 @@
         justify-content: space-between;
         margin: 10px 0 30px;
 
+        img{
+            cursor: pointer;
+        }
+
         input[type="button"]{
             background: $blue;
             color:#fff;
@@ -341,6 +346,7 @@
             padding: 5px 28px;
             align-self: center;
             font-size: 16px;
+            cursor: pointer;
         }
       }
 
@@ -351,7 +357,7 @@
         margin-bottom: 30px;
       }
       .blogMainImage{
-
+        max-width: 100%;
       }
       .reacties{
         font-family: OpenSans-Bold;
