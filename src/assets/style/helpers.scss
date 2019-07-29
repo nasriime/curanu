@@ -1,0 +1,30 @@
+.no-border{
+    border:none;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .sans-bold{
+    font-family: OpenSans-Bold;
+  }
+  .sans-light{
+    font-family: OpenSans-Light;
+  }
+  .light-color{
+    color: $light;
+  }
+  .align-self-center{
+    align-self: center;
+  }
+  .fs-12{
+    font-size:12px;
+  }
+  .fs-14{
+    font-size:14px;
+  }
+  .fs-16{
+    font-size:16px;
+  }
+  .fs-18{
+    font-size:18px;
+  }
