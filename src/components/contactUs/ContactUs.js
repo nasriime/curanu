@@ -70,7 +70,7 @@ export default class ContactUs extends Component {
                                             {errors.bericht && touched.bericht ? (<div className="error">{errors.bericht}</div>) : null}
                                     </div>
                                     <div className="contact__button">
-                                        <button type="button" onClick={handleSubmit} disabled={!isValid || !isSubmitting}>Verstuur</button>
+                                        <button type="button" onClick={handleSubmit} disabled={!isValid || isSubmitting}>Verstuur</button>
                                     </div>
                                 </form> 
                                     )
