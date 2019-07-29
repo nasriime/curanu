@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { fetchDates } from '../../actions/EvenementenAction';
 
-export default function Evenementen() {
-    return (
-        <div className="widget">
+class Evenementen extends Component {
+
+    componentDidMount(){
+        this.props.fetchDates();
+    }
+
+    render() {
+        console.log(this.props.items)
+        return (
+            <div className="widget">
             <div className="widgetHeader">
                 <div className="header-part-one">
                     <i><img src="/images/calendar.svg" alt="calendar"/></i>
@@ -35,5 +45,17 @@ export default function Evenementen() {
             </div>
 
         </div>
-    )
+        )
+    }
 }
+
+
+Evenementen.propTypes = {
+    fetchDates: PropTypes.func.isRequired
+  }
+  
+  const mapStateToProps = state => ({
+    items: state.dates.items
+  })
+  
+  export default connect(mapStateToProps, { fetchDates })(Evenementen);

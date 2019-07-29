@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import accordionReducer from './accordionReducer';
+import datesReducer from './datesReducer';
 
 export default combineReducers({
-  accordion: accordionReducer
+  dates: datesReducer
 });
