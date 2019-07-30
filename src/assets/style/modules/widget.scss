@@ -1,6 +1,7 @@
 .widget{
     border: solid 1px #dae4ee;
     margin-bottom: 20px;
+    overflow: hidden;
      .accordion{
         &+ .accordion{
             margin-top:10px;
@@ -130,11 +131,11 @@
 
         .nieuws-text{
             color:$light;
+            width: calc(100% - 9px);
 
             div{
                 display: flex;
                 justify-content: space-between;
-                width: calc(100% - 9px);
                 margin-left:20px;
                 p{
                     font-family: OpenSans-Light;
@@ -315,6 +316,11 @@
         margin-left:20px;
         font-family: OpenSans-Bold;
         color: $light;
+        cursor: pointer;
+    }
+
+    img{
+        cursor: pointer;
     }
 
 }

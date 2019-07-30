@@ -3,8 +3,8 @@ import React from 'react'
 export default function Navigation() {
     return (
         <div className="wrapper">
-            <div className="navigationWrapper">
-                <ul className="navigationList">
+            <div className="navigationWrapper flex-wrap">
+                <ul className="navigationList flex-wrap">
                     <li><a href="#">Groepen</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">FAQS</a></li>

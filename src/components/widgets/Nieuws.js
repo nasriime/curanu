@@ -15,7 +15,7 @@ export default function Nieuws() {
                 </div>
 
                 <div className="nieuws">
-                    <div className="nieuws-item">
+                    <div className="nieuws-item cursor-pointer">
                         <i><img src="/images/Rectangle 5.png" alt="laptop"/></i>
                         <div className="nieuws-text">
                             <div>
@@ -26,7 +26,7 @@ export default function Nieuws() {
                         </div>
                     </div>
 
-                    <div className="nieuws-item">
+                    <div className="nieuws-item cursor-pointer">
                         <i><img src="/images/Rectangle 5 Copy.png" alt="nurse"/></i>
                         <div className="nieuws-text">
                             <div>

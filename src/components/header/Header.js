@@ -3,8 +3,8 @@ import React from 'react';
 export default function header() {
   return (
     <div className="headerWrapper">
-      <div className="wrapper header">
-       <ul className="headerList">
+      <div className="wrapper header flex-wrap">
+       <ul className="headerList flex-wrap">
          <li><a href="#">Artikelen</a></li>
          <li><a href="#">Nieuws</a></li>
          <li><a href="#">Evenementen</a></li>

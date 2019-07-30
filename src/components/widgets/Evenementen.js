@@ -25,15 +25,15 @@ class Evenementen extends Component {
             </div>
 
             <div className="evenementen">
-                <div>
+                <div className="cursor-pointer">
                     <span>10/12/2016</span>
                     <span>Zorgmarathon</span>
                 </div>
-                <div>
+                <div className="cursor-pointer">
                     <span>12/12/2016</span>
                     <span>Beurs</span>
                 </div>
-                <div>
+                <div className="cursor-pointer">
                     <span>30/12/2016</span>
                     <span>Onze zorgevenement</span>
                 </div>

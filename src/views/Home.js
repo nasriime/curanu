@@ -18,7 +18,7 @@ export default function home() {
         <div>
             <HeaderContainer/>
             <div className="wrapper">
-                <div className="display-flex">
+                <div className="display-flex flex-wrap">
                     <div className="col">
                         <AccordionsContainer/>
                         <Evenementen/>

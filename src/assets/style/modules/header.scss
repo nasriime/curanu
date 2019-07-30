@@ -10,12 +10,17 @@
     display: flex;
     margin-top: 10px;
     li {
-      &+ li{
-          margin-left: 20px;
+      @media(max-width: 526px){
+        margin-top:10px;
+    }
+      &:not(:last-child){
+          margin-right: 20px;
       }
       a{
         cursor: pointer;
         color:$light;
+        font-family: OpenSans-Light;
+        font-size: 14px;
         &:hover{
           color:#000;
         }
@@ -31,6 +36,10 @@
         &+ span{
             margin-left: 10px;
         }
+    }
+
+    @media(max-width: 624px){
+      margin-top:20px;
     }
   }
   /********************************* LOGO WRAPPER ************************************/
@@ -76,8 +85,11 @@
     align-items: center;
 
     li {
-      &+ li{
-          margin-left: 35px;
+      @media(max-width: 526px){
+        margin-top:10px;
+    }
+      &:not(:last-child){
+          margin-right: 20px;
       }
       a{
         cursor: pointer;
@@ -95,6 +107,9 @@
       justify-content: space-between;
   }
 .searchForm{
+      @media(max-width: 826px){
+        margin-top:20px;
+    }
     div{
         position: relative;
         overflow: hidden;

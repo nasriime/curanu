@@ -8,7 +8,20 @@
 
   .col{
       width: calc(33.3333% - 13.3333px);
+
       &+ .col{
           margin-left: 20px;
       }
+
+      @media(max-width: 980px){
+        width:calc(50% - 10px);
+        &:last-child{
+            margin-left: 0;
+        }
+    }
+
+    @media(max-width: 668px){
+        width:100%;
+        margin-left: 0!important;
+    }
   }
