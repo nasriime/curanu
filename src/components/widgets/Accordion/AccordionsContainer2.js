@@ -33,8 +33,8 @@ export default class AccordionsContainer2 extends React.Component {
   updateTabs(id) {
     const {tabs} = this.state;
     const newtabs = tabs.map((tab, index) => {
-      if (tab.id == id) {
-        if (tab.active == true) {
+      if (tab.id === id) {
+        if (tab.active === true) {
           tab.active = false;
         } else {
           tab.active = true;

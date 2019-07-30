@@ -5,10 +5,10 @@ export default function header() {
     <div className="headerWrapper">
       <div className="wrapper header flex-wrap">
        <ul className="headerList flex-wrap">
-         <li><a href="#">Artikelen</a></li>
-         <li><a href="#">Nieuws</a></li>
-         <li><a href="#">Evenementen</a></li>
-         <li><a href="#">Kwaliteitshandboek</a></li>
+         <li><a href="#7">Artikelen</a></li>
+         <li><a href="#8">Nieuws</a></li>
+         <li><a href="#9">Evenementen</a></li>
+         <li><a href="#10">Kwaliteitshandboek</a></li>
        </ul>
        <form className="searchForm">
          <div> 

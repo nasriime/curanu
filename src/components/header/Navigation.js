@@ -5,12 +5,12 @@ export default function Navigation() {
         <div className="wrapper">
             <div className="navigationWrapper flex-wrap">
                 <ul className="navigationList flex-wrap">
-                    <li><a href="#">Groepen</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">FAQS</a></li>
-                    <li><a href="#">moelenboek</a></li>
-                    <li><a href="#">Microblog</a></li>
-                    <li><a href="#">Over ons</a></li>
+                    <li><a href="#1">Groepen</a></li>
+                    <li><a href="#2">Contact</a></li>
+                    <li><a href="#3">FAQS</a></li>
+                    <li><a href="#4">moelenboek</a></li>
+                    <li><a href="#5">Microblog</a></li>
+                    <li><a href="#6">Over ons</a></li>
                 </ul>
                 <div className="notifications">
                     <span>
