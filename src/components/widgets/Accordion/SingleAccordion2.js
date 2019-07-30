@@ -22,7 +22,7 @@ export default function SingleAccordion2({
           alt=""
         />
       </div>
-      <div className={`accordion-body ${active ? 'active' : 'no-height'}`}>
+      <div className={`accordion-body ${active ? 'active' : ''}`}>
         <div
           className="accordionText"
           dangerouslySetInnerHTML={{ __html: content }}
