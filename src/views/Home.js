@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 import HeaderContainer from '../components/header/HeaderContainer';
-import AccordionsContainer from '../components/widgets/Accordion/AccordionsContainer';
+// import AccordionsContainer from '../components/widgets/Accordion/AccordionsContainer';
+import AccordionsContainer2 from '../components/widgets/Accordion/AccordionsContainer2';
 import Evenementen from '../components/widgets/Evenementen';
 import Nieuws from '../components/widgets/Nieuws';
 import Add from '../components/widgets/Add';
@@ -14,31 +15,32 @@ import Groepen from '../components/widgets/Groepen';
 import Microblog from '../components/widgets/Microblog';
 
 export default function home() {
-    return (
-        <div>
-            <HeaderContainer/>
-            <div className="wrapper">
-                <div className="display-flex flex-wrap">
-                    <div className="col">
-                        <AccordionsContainer/>
-                        <Evenementen/>
-                        <Nieuws/>
-                        <Add/>
-                    </div>
-                    <div className="col">
-                        <Direct/>
-                        <Blogs/>
-                        <Kwaliteitshandboek/>
-                        <Peilingen/>
-                        <Links/>
-                    </div>
-                    <div className="col">
-                        <Telefoonboek/>
-                        <Microblog/>
-                        <Groepen/>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div>
+      <HeaderContainer />
+      <div className="wrapper">
+        <div className="display-flex flex-wrap">
+          <div className="col">
+            {/* <AccordionsContainer/> */}
+            <AccordionsContainer2 />
+            <Evenementen />
+            <Nieuws />
+            <Add />
+          </div>
+          <div className="col">
+            <Direct />
+            <Blogs />
+            <Kwaliteitshandboek />
+            <Peilingen />
+            <Links />
+          </div>
+          <div className="col">
+            <Telefoonboek />
+            <Microblog />
+            <Groepen />
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }

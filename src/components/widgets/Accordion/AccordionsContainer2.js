@@ -1,26 +1,73 @@
-import React from 'react'
-import SingleAccordion from './SingleAccordion';
+import React from 'react';
+import SingleAccordion2 from './SingleAccordion2';
 
+export default class AccordionsContainer2 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleTabClick = this.handleTabClick.bind(this);
 
-export default function AccordionsContainer2() {
+    this.state = {
+      tabs: [
+        {
+          id: 1,
+          title: 'tab 1',
+          content: 'this is tab 1',
+          active: true
+        },
+        {
+          id: 2,
+          title: 'tab 2',
+          content: 'this is tab 2',
+          active: false
+        },
+        {
+          id: 3,
+          title: 'tab 3',
+          content: 'this is tab 3',
+          active: false
+        }
+      ]
+    };
+  }
+
+  updateTabs(id) {
+    let tabs = this.state.tabs;
+    let newtabs = tabs.map((tab, index) => {
+      if (tab.id == id) {
+        if (tab.active == true) {
+          tab.active = false;
+        } else {
+          tab.active = true;
+        }
+      } else {
+        tab.active = false;
+      }
+      return tab;
+    });
+    return newtabs;
+  }
+
+  handleTabClick(id) {
+    this.setState({ tabs: this.updateTabs(id) });
+  }
+
+  render() {
+    const tabsArray = this.state.tabs;
     return (
-            <div className="widget">
-                <SingleAccordion 
-                    title="Accordion1"
-                    content="1Sed non urna. Donec et ante. Phasellus eu ligula. 
-                        Vestibulum sit amet purus. Vivamus hendrerit, 
-                        dolor at aliquet laoreet, mauris turpis porttito"/>
-               <SingleAccordion 
-                    title="Accordion2"
-                    content="2Sed non urna. Donec et ante. Phasellus eu ligula. 
-                    Vestibulum sit amet purus. Vivamus hendrerit, 
-                    dolor at aliquet laoreet, mauris turpis porttito"/>
-
-                <SingleAccordion 
-                    title="Accordion3"
-                    content="3Sed non urna. Donec et ante. Phasellus eu ligula. 
-                    Vestibulum sit amet purus. Vivamus hendrerit, 
-                    dolor at aliquet laoreet, mauris turpis porttito"/>
-            </div>    
-    )
+      <div className="widget">
+        {tabsArray.map((tab, index) => {
+          return (
+            <SingleAccordion2
+              key={index}
+              id={tab.id}
+              title={tab.title}
+              handleclick={this.handleTabClick}
+              content={tab.content}
+              active={tab.active}
+            />
+          );
+        })}
+      </div>
+    );
+  }
 }
