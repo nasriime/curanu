@@ -88,10 +88,10 @@
   overflow: hidden;
   transition: all 0.6s ease;
   &.no-height {
-    height: 0;
+    max-height: 0px;
   }
   &.active {
-    height: auto;
+    max-height: auto;
   }
 }
 .accordionText {

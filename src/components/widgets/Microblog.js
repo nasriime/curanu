@@ -15,7 +15,7 @@ export default function Microblog() {
             </div>
 
             <div className="microblog">
-                    <textarea></textarea>
+                    <textarea />
                     <div className="addBlog">
                         <img src="/images/Bitmap 2.png" alt="camera"/>
                         <input className="no-border" type="button" value="Plaats"/>
