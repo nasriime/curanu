@@ -10,20 +10,26 @@ export default class AccordionsContainer2 extends React.Component {
       tabs: [
         {
           id: 1,
-          title: 'tab 1',
-          content: 'this is tab 1',
+          title: 'Accordion1',
+          content: `1Sed non urna. Donec et ante. Phasellus eu ligula. 
+          Vestibulum sit amet purus. Vivamus hendrerit, 
+          dolor at aliquet laoreet, mauris turpis porttito`,
           active: true
         },
         {
           id: 2,
-          title: 'tab 2',
-          content: 'this is tab 2',
+          title: 'Accordion2',
+          content: `2Sed non urna. Donec et ante. Phasellus eu ligula. 
+          Vestibulum sit amet purus. Vivamus hendrerit, 
+          dolor at aliquet laoreet, mauris turpis porttito`,
           active: false
         },
         {
           id: 3,
-          title: 'tab 3',
-          content: 'this is tab 3',
+          title: 'Accordion3',
+          content: `3Sed non urna. Donec et ante. Phasellus eu ligula. 
+          Vestibulum sit amet purus. Vivamus hendrerit, 
+          dolor at aliquet laoreet, mauris turpis porttito`,
           active: false
         }
       ]
