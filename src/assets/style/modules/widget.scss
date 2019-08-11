@@ -8,15 +8,36 @@
     }
   }
 }
+
+.widget-body {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.8s cubic-bezier(0, 1, 0, 1);
+
+  &.active {
+    transition: max-height 2s ease-in-out;
+    max-height: 1000px;
+    padding: 0;
+  }
+}
+
 .widgetName {
   color: $orange;
   font-size: 16px;
   font-family: OpenSans-Bold;
 }
 .widgetHeader {
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   height: 40px;
+
+  &:hover {
+    background: $light;
+    div[class*='header-part'] i {
+      background: $light;
+    }
+  }
 }
 .header-part-one {
   display: flex;
@@ -40,6 +61,11 @@
     justify-content: center;
     align-items: center;
     padding: 12px;
+    transition: transform 0.3s ease;
+
+    &.rotate {
+      transform: rotate(90deg);
+    }
 
     &:last-of-type {
       background: $icons-background;
@@ -86,8 +112,8 @@
 }
 .accordion-body {
   overflow: hidden;
-  max-height:0px;
-  transition: max-height 0.8s cubic-bezier(0, 1, 0, 1);  
+  max-height: 0px;
+  transition: max-height 0.8s cubic-bezier(0, 1, 0, 1);
   &.active {
     transition: max-height 2s ease-in-out;
     max-height: 1000px;
