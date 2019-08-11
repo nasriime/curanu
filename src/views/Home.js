@@ -1,7 +1,6 @@
 import React from 'react';
 import HeaderContainer from '../components/header/HeaderContainer';
-// import AccordionsContainer from '../components/widgets/Accordion/AccordionsContainer';
-import AccordionsContainer2 from '../components/widgets/Accordion/AccordionsContainer2';
+import AccordionsContainer from '../components/widgets/Accordion/AccordionsContainer';
 import Evenementen from '../components/widgets/Evenementen';
 import Nieuws from '../components/widgets/Nieuws';
 import Add from '../components/widgets/Add';
@@ -21,8 +20,7 @@ export default function home() {
       <div className="wrapper">
         <div className="display-flex flex-wrap">
           <div className="col">
-            {/* <AccordionsContainer/> */}
-            <AccordionsContainer2 />
+            <AccordionsContainer />
             <Evenementen />
             <Nieuws />
             <Add />
